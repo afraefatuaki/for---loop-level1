@@ -16,3 +16,10 @@ let names = ["Georg", "Anass", "Elaine", "Hakan", "Sam", "Kim", "Sergio"]
 for (let y = 0; y < names.length; y++) {
     console.log(names[y])
 }
+
+//Lev1_6_js-vertiefung_loops_for-loop-array
+let retArray = []
+for (let p = 1; p <= 100; p++) {
+    retArray.push("image_" + p + ".jpg")
+}
+console.log(retArray)
