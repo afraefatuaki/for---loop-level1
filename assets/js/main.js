@@ -31,10 +31,33 @@
 //     number++
 // }
 
-//Lev1_8_js-vertiefung_loops_do_while
-let evenNumber = 0
+// Lev1_8_js - vertiefung_loops_do_while
+// let evenNumber = 0
 
-while (evenNumber <= 18) {
-    evenNumber = evenNumber + 2
-    console.log(evenNumber)
+// while (evenNumber < 20) {
+//     evenNumber = evenNumber + 2
+//     console.log(evenNumber)
+// }
+
+// Lev1_9_js - vertiefung_loops_mit_input_word
+let number = document.getElementById("number")
+let results = document.getElementById("results")
+
+let words = ['hallo', 'Auto', 'Waschmaschine', 'Schrank', 'Katze', 'Beispiel', 'Eltern', 'Fenster', 'Geburtstag', 'Himmel', 'schwimmen', 'Zeitung']
+
+function writeNumber() {
+
+    for (let i = 0; i < words.length; i++) {
+
+
+        if (number.value == words[i].length) {
+            console.log(words[i])
+            results.innerHTML += `${words[i]}<br>`
+        }
+
+
+
+    }
+
 }
+
