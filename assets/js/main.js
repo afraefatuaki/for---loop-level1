@@ -23,3 +23,10 @@ for (let p = 1; p <= 100; p++) {
     retArray.push("image_" + p + ".jpg")
 }
 console.log(retArray)
+
+//Lev1_7_js-vertiefung_loops_do_while
+let number = 1
+while (number <= 5) {
+    console.log("The number is " + number)
+    number++
+}
